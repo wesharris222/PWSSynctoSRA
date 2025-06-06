@@ -1,0 +1,11 @@
+Notes:  
+
+
+
+1) Only built it to change a managed account with a functional account.  all other SDK actions werent done cuz im lazy.  so no FA testing or anything.  that can be implemented, but this was a one off so i didnt
+
+2) The "change managed account with functional account" file in the "Actions Folder" file has a file path where the script to change the PWS needs to live.  its set to c:\test\syncpwstopra.ps1 by default, but you can open the action file in an editor to view it or change it.
+
+3) The script in the SRA Sync Plugin dir needs to have your SRA site and client id and secret input.  I think i put the script on the RB/UVM, as it i s just doing API calls, nothing on the local system.
+
+4) You'll need to recompile the plugin in Visual Studio once you've made the changes in the Actions folder, but the script can be changed after compiling.  There is a doc in the "Documents" folder that details how to use the SDK to generate a plugin.
